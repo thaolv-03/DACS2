@@ -1,0 +1,36 @@
+.download-container {
+    color: #000;
+    padding-top: 90px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 25px;
+    /* text-transform: uppercase; */
+    padding: 20px 0;
+}
+
+.content {
+    padding: 50px 100px;
+}
+
+
+table {
+    width: 70%;
+}
+
+tbody {
+    width: 100%;
+}
+
+tr td {
+    padding: 6px 0;
+}
+
+table a {
+    color: #3a4eff;
+    text-decoration: none;
+    border-bottom: 1px solid silver;
+    font-weight: 500;
+}

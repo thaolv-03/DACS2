@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.signup-container {
+    width: 100%;
+}
+
+.signup {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.signup h1 {
+    margin-top: 50px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.form p {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.form input {
+    min-width: 400px;
+    padding: 10px 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.pass-forgot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    letter-spacing: 1px;
+}
+
+.pass-forgot a {
+    text-decoration: none;
+    color: var(--black);
+    font-size: 12px;
+
+}
+
+
+input.signup-btn {
+    width: 100%;
+    margin-top: 30px;
+    background-color: #57b846;
+    color: var(--white);
+    padding: 14px 0 !important;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    transition: 0.2s;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+input.signup-btn:hover {
+    background-color: var(--black);
+    cursor: pointer;
+}
+
+a.create-acc,
+a.back-login {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-decoration: none;
+    color: var(--black);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.product-container {
+    padding-bottom: 50px;
+}
+
+.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.product-name {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.product img {
+    width: 100%;
+}
+
+.product-btn {
+    min-width: 150px;
+    padding: 10px 10px;
+    background-color: var(--white);
+    border: 1px solid var(--black);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    /* transform: skew(-10deg); */
+    font-family: 'Montserrat', sans-serif;
+    transition: 0.2s;
+}
+
+.product-btn:hover {
+    background-color: var(--black);
+    color: var(--white);
+    cursor: pointer;
+}
