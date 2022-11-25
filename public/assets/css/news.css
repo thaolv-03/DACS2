@@ -111,6 +111,11 @@
     text-align: justify;
 }
 
+.news-detail-post-content img {
+    width: 100%;
+    height: auto;
+}
+
 .news-post-btn {
     margin: 15px 0;
     display: flex;

@@ -31,7 +31,7 @@
                     <hr class="hr-1">
                 </div>
                 <div class="nav nav--news">
-                    <a href="{{route('news.index');}}">Tin tức</a>
+                    <a href="{{route('news.newsClient');}}">Tin tức</a>
                     <hr class="hr-1">
                 </div>
                 <div class="nav nav--support">

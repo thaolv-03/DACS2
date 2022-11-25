@@ -73,7 +73,7 @@
                 <div class="product-info">
 
                     <div class="product-info__nav">
-                        <a href="{{route('home')}}">Trang chủ</a>
+                        <a href="{{route('home.index')}}">Trang chủ</a>
                         <span>/</span>
                         <a href="">80 SERIES</a>
                     </div>

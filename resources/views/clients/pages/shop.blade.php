@@ -15,7 +15,7 @@
             <!-- shop title  -->
             <div class="shop-header">
                 <div class="shop__home">
-                    <a href="../">Trang chủ</a>
+                    <a href="{{route('home.index')}}">Trang chủ</a>
                     <span>/</span>
                     <span class="shop__home--current-page">Shop</span>
                 </div>
